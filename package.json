@@ -1,20 +1,15 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "node_lib_md",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minha primeira biblioteca em Node.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oborges-cmyk/2708-node-lib-md-Otavio.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oborges-cmyk/2708-node-lib-md-Otavio.git"
-  },
-  "homepage": "https://github.com/oborges-cmyk/2708-node-lib-md-Otavio.git"
+  "dependencies": {
+    "chalk": "^6.0.0"
+  }
 }
